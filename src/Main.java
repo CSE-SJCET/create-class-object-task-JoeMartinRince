@@ -1,4 +1,4 @@
-public class Student {
+class Student {  // remove 'public'
     String name;
     int rollNumber;
     char grade;
@@ -10,6 +10,7 @@ public class Student {
         System.out.println("Grade: " + grade);
     }
 }
+
 public class Main {
     public static void main(String[] args) {
         // TODO: Create Student object
